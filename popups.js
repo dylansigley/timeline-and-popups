@@ -411,7 +411,7 @@
     "Stay until the end and receive a special bonus that could change your financial future!",
     "Watch the entire webinar, because we have a <b>special surprise</b> for you at the end!",
     "This offer is time limited so claim it while you can."
-  ], c = "https://conversionratestore.github.io/projects/dropservicing", y = `<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+  ], c = "https://dylansigley.github.io/timeline-and-popups/", y = `<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
 <g filter="url(#filter0_d_2047_2074)">
 <circle cx="19" cy="15" r="15" fill="#222222"/>
 <circle cx="19" cy="15" r="13.8" stroke="white" stroke-width="2.4"/>
@@ -446,7 +446,7 @@
       ) : ""}
         <div class="crs_list_block">
           <h3>
-            <img src="${c}/popups/img/${n}" alt="icon" />
+            <img src="${c}/img/${n}" alt="icon" />
             ${b[s]}
           </h3>
           <ul>
@@ -457,7 +457,7 @@
         ${s !== 3 ? (
         /* HTML */
         `<div class="crs_note">
-              <img src="${c}/popups/img/info-circle.png" alt="info" />
+              <img src="${c}/img/info-circle.png" alt="info" />
               <p><b>IMPORTANT NOTE:</b> ${v[s]}</p>
             </div>`
       ) : ""}
@@ -466,7 +466,7 @@
         `<div class="crs_guarantee">
               <h4>100% satisfaction</h4>
               <p>If you’re not completely satisfied after implementing our step-by-step plan, get a full refund!</p>
-              <img src="${c}/popups/img/guaranteed.svg" alt="guaranteed" />
+              <img src="${c}/img/guaranteed.svg" alt="guaranteed" />
             </div>`
       ) : ""}
         ${s < 2 ? '<button class="crs_btn">Continue Watching</button>' : '<a class="crs_btn" href="https://start.dropservicing.com/partner30" target="_blank">Access Special Offer Now</a>'}
@@ -477,7 +477,7 @@
           <div class="crs_stories_nav">
             ${l.map(
         (e, t) => `<span class="${t === 0 ? "active" : ""}">
-                <img src="${c}/popups/img/avatar_${t}.jpg" alt="avatar" />
+                <img src="${c}/img/avatar_${t}.jpg" alt="avatar" />
               </span>`
       ).join("")}
           </div>
@@ -488,14 +488,14 @@
           `<div class="crs_story ${t === 0 ? "active" : ""}">
                     <div class="crs_story_head">
                       <span>
-                        <img src="${c}/popups/img/avatar_${t}.jpg" alt="avatar" />
+                        <img src="${c}/img/avatar_${t}.jpg" alt="avatar" />
                       </span>
                       <p>
                         <b>${e.name}</b><br />
                         <span>Verified Customer ✅</span>
                       </p>
                     </div>
-                    <img src="${c}/optin/img/rating_stars.png" alt="stars" />
+                    <img src="${c}/img/rating_stars.png" alt="stars" />
                     <p>${e.text}</p>
                   </div>`
         )
