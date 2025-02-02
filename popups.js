@@ -381,7 +381,7 @@
   ], x = [
     "This webinar is packed with life-changing insights, but it’s only available for a limited time. Watch it while you still can!",
     "This webinar is only available for a limited time, so watch it while you still can!",
-    "You've unlocked an exclusive <b>$4,000 discount</b> on our Drop Servicing Partner Program!"
+    "You've unlocked an exclusive <b>$2,000 discount</b> on our Drop Servicing Partner Program!"
   ], b = [
     "IN THE NEXT 15 MINUTES, YOU'LL DISCOVER:",
     "IN THE NEXT 20 MINUTES, YOU’LL DISCOVER:",
@@ -469,7 +469,7 @@
               <img src="${c}/img/guaranteed.svg" alt="guaranteed" />
             </div>`
       ) : ""}
-        ${s < 2 ? '<button class="crs_btn">Continue Watching</button>' : '<a class="crs_btn" href="https://start.dropservicing.com/partner30" target="_blank">Access Special Offer Now</a>'}
+        ${s < 2 ? '<button class="crs_btn">Continue Watching</button>' : '<a class="crs_btn" href="https://start.dropservicing.com/partner" target="_blank">Access Special Offer Now</a>'}
       </div>
       <div class="crs_stories">
         <p>Our Success Stories</p>
