@@ -381,7 +381,7 @@
   ], x = [
     "This webinar is packed with life-changing insights, but it’s only available for a limited time. Watch it while you still can!",
     "This webinar is only available for a limited time, so watch it while you still can!",
-    "You've unlocked an exclusive <b>$2,000 discount</b> on our Drop Servicing Partner Program!"
+    "You've unlocked an exclusive <b>$4,000 discount</b> on Drop Servicing Blueprint: Done-For-You!"
   ], b = [
     "IN THE NEXT 15 MINUTES, YOU'LL DISCOVER:",
     "IN THE NEXT 20 MINUTES, YOU’LL DISCOVER:",
@@ -394,17 +394,17 @@
       "A step-by-step blueprint to <b>start earning $10,000+</b> per month from home."
     ],
     [
-      "How to get <b>your first high value client</b> fast (step-by-step tutorials).",
+      "How to get <b>your first high value buyer</b> fast (step-by-step tutorials).",
       "<b>200+ copy-and-paste templates</b> to build your own Drop Servicing business and achieve financial freedom.",
       "<b>Get direct access</b> to Dylan's best freelancer teams and services."
     ],
     [
-      "<b>Everything Inside My Business</b> including my entire system with all the resources you need to replicate my results.",
-      "The Drop Servicing Blueprint 3.0 video course with over <b>30 hours of training</b>.",
+      "Get a <b>Done-For-You Business</b> where my team and I will literally build your business for you.",
+      "The 7 Day Accelerator video course with over <b>30 hours of training</b>.",
       "<b>200+ ‘Done For You’ Templates</b>, the most effective templates from our businesses that you can copy and paste."
     ],
     [
-      "Launch a <b>fully automated Drop Servicing business</b> with our proven system.",
+      "Get a <b>fully Done-For-You Drop Servicing business</b> with our proven system.",
       "Follow our step-by-step process to <b>get your first sales</b>."
     ]
   ], v = [
@@ -469,7 +469,7 @@
               <img src="${c}/img/guaranteed.svg" alt="guaranteed" />
             </div>`
       ) : ""}
-        ${s < 2 ? '<button class="crs_btn">Continue Watching</button>' : '<a class="crs_btn" href="https://start.dropservicing.com/partner" target="_blank">Access Special Offer Now</a>'}
+        ${s < 2 ? '<button class="crs_btn">Continue Watching</button>' : '<a class="crs_btn" href="https://start.dropservicing.com/offer30" target="_blank">Access Special Offer Now</a>'}
       </div>
       <div class="crs_stories">
         <p>Our Success Stories</p>
