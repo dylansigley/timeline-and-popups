@@ -524,7 +524,7 @@
     }
     async showPopup() {
       const n = localStorage.getItem("popupShown"), e = i("video").elements[0].currentTime;
-      let t = e < 25 * 60 ? 0 : e < 50 * 60 ? 1 : e < 70 * 60 ? 2 : 3;
+      let t = e < 0.1 * 60 ? 0 : e < 0.2 * 60 ? 1 : e < 0.3 * 60 ? 2 : 3;
       n && +n === t || (i(".crs_popup_wrapper").elements[0].innerHTML = $(t), i(".crs_popup_wrapper").addClass("active"), localStorage.setItem("popupShown", t.toString()), i(".crs_popup_wrapper .crs_close").on("click", () => {
         i(".crs_popup_wrapper").removeClass("active"), p(`exp_exit_intent_popup${this.checkPopup()}_close`, "Close", "click", `Popup #${this.checkPopup()}`);
       }), i("button.crs_btn").on("click", () => {
